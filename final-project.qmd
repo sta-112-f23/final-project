@@ -1,0 +1,38 @@
+---
+title: "Title"
+author: "Authors Names"
+format: 
+  pdf:
+    fontsize: 12pt
+editor: visual
+execute: 
+  echo: false
+bibliography: citations.bib
+abstract: |
+  This is an abstract.
+---
+
+\newpage
+
+## Background and Significance
+
+## Methods
+
+
+## Results
+
+All analyses were completed using R version 4.2.1 [@rstats].
+
+## Discussion
+
+## References
+
+::: {#refs}
+:::
+
+## Appendix
+
+```{r ref.label=knitr::all_labels()}
+#| echo: true
+#| eval: false
+```
